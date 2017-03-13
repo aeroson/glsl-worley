@@ -17,7 +17,7 @@ var camera = createOrbitCamera([0, -2.0, 0], [0, 0, 0], [0, 1, 0]);
 
 var mouseLeftDownPrev = false;
 
-var bg = [0.6, 0.7, 1.0]; // clear color.
+var bg = [1.0, 1.0, 1.0]; // clear color.
 
 var noiseScale = {val: 5.0};
 var noiseJitter = {val: 1.0};
