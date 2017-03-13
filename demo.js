@@ -72,7 +72,7 @@ shell.on("gl-init", function () {
     gui = new createGui(gl);
     gui.windowSizes = [300, 420];
 
-    var sphere = createSphere(1, {subdivisions: 20});
+    var sphere = createSphere(1, {subdivisions: 6});
     sphereGeo = Geometry(gl)
         .attr('aPosition', sphere.positions).faces(sphere.cells);
 
